@@ -11,7 +11,7 @@
     <!-- <h3>訂單編號 : <%=order.orderId%></h3> -->
     <h3>商品ID : <%=order.packages[0].id%></h3>
     <h3>商品名稱 : <%=order.packages[0].products[0].name%></h3>
-    <h3>價錢 : <%=order.amount%></h3>
+    <h3>價錢 : <%=order.amount%> NT/罐</h3>
     <form action="/createOrder/<%= order.orderId %>" method="post">
         <button class="bbtn" type="submit">前往結帳</button>
     </form>
