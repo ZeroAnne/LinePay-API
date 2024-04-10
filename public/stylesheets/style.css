@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+
+}
+
+a:active {
+  color: #3b7bf0;
+}
+
+.bbtn {
+  background-color: #00B7FF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
